@@ -13,3 +13,43 @@ h3{
     font-family:"Russo One", sans-serif;
     font-size:18pt;
 }
+.solid {
+        width: 100vw;
+        height: 10vh;
+        background-color:coral;
+    }
+.nav{
+    padding-top:15px;
+    padding:10px;
+}
+h1{
+    font-family:"Sanchez", sans-serif;
+    font-size: 32pt;
+    padding-right:200px;
+    padding-left:200px;
+}
+.raleway{
+    font-family:"raleway", sans-serif;
+    font-weight:300;
+}
+.subtitle{
+    font-family:"Sanchez", sans-serif;
+    font-style:italic;
+    font-weight:200;
+    padding-left:200px;
+    padding-right:600px;
+    font-size:20pt;
+    }
+.line {
+        border-top: 3px;
+        color: navy;
+}    
+.quotes{
+    background-color:lightgray;
+    width:100vw;
+    height:40vh;
+    font-family:"Sanchez", sans-serif;
+    font-size:16pt;
+    font-style:italic;
+    text-align:center;
+}
