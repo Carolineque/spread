@@ -8,6 +8,7 @@ p{
 h2{ 
     font-family:"Russo One", sans-serif;
     font-size:22pt;
+    text-align:center;
 }
 h3{
     font-family:"Russo One", sans-serif;
@@ -16,7 +17,7 @@ h3{
 .solid {
         width: 100vw;
         height: 10vh;
-        background-color:coral;
+        background-color:lightsalmon;
     }
 .nav{
     padding-top:15px;
@@ -52,4 +53,61 @@ h1{
     font-size:16pt;
     font-style:italic;
     text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bold{
+    font-family:"raleway", sans-serif;
+    font-weight:600;
+}
+.infos{
+    margin-right:5vw;
+    text-align:right;
+}
+.agen{
+    background-color:midnightblue;
+    width:100vw;
+    height:20vh;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.agenn{
+    background-color:lightsalmon;
+    width:100vw;
+    height:20vh;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.agennn{
+    background-color:steelblue;
+    width:100vw;
+    height:20vh;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.agennnn{
+    background-color:darkslategray;
+    width:100vw;
+    height:20vh;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.concluagen{
+    background-color:gainsboro;
+    width:100vw;
+    height:20vh;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
