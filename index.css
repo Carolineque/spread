@@ -7,12 +7,12 @@ p{
 }
 h2{ 
     font-family:"Russo One", sans-serif;
-    font-size:22pt;
+    font-size:40px;
     text-align:center;
 }
 h3{
     font-family:"Russo One", sans-serif;
-    font-size:18pt;
+    font-size: 48px;
 }
 .solid {
         width: 100vw;
@@ -46,7 +46,7 @@ h1{
         color: navy;
 }    
 .quotes{
-    background-color:lightgray;
+    background-color:#F7EBE9;
     width:100vw;
     height:40vh;
     font-family:"Sanchez", sans-serif;
@@ -110,4 +110,39 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.titleprada{
+    color: lightskyblue;
+    background-color: midnightblue;
+    width: 779px;
+    height: 24px;
+}
+
+.titlewheel{
+    color: midnightblue;
+    background-color: lightsalmon;
+    width: 779px;
+    height: 24px;
+}
+
+.titlememphis{
+    color: lightskyblue;
+    background-color: steelblue;
+    width: 779px;
+    height: 24px;
+}
+
+.titleconstruct{
+    color: lightskyblue;
+    background-color: darkslategray;
+    width: 779px;
+    height: 24px;
+}
+
+.titleconclusion{
+    color: coral;
+    background-color: gainsboro;
+    width: 779px;
+    height: 24px;
 }
