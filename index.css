@@ -4,7 +4,7 @@ p{
     font-size:14pt;
     padding-left: 200px;
     padding-right: 200px;
-    line-height:1.6;
+    line-height:1.8;
 }
 h2{ 
     font-family:"Russo One", sans-serif;
@@ -144,3 +144,51 @@ h1{
     height: 15px;
     margin-bottom:0px;
 }
+
+
+.sec3 {
+    background-color: lightyellow;
+    }
+    
+    .abovemt{
+    padding-top: 20px;
+    }
+    
+    .barm{
+    background-color: steelblue;
+    width: 350px;
+    height:15px;
+    margin-bottom:0px;
+    }
+
+    .sec4 {
+        background-color: black;
+        }
+        
+        .abovect{
+        padding-top: 20px;
+        }
+        
+        .barc{
+        background-color: darkslategray;
+        width: 350px;
+        height:15px;
+        margin-bottom:0px;
+        }
+
+    .sec5 {
+            background-color: gainsboro;
+            }
+            
+            .aboveco{
+            padding-top: 20px;
+            padding-bottom: 40px;
+            }
+            
+            .barco{
+            background-color: white;
+            width: 350px;
+            height:15px;
+            margin-bottom:0px;
+            }
+        
