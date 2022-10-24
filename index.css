@@ -2,8 +2,8 @@
 p{
     font-family:"Raleway", sans-serif;
     font-size:14pt;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
     line-height:1.8;
 }
 h2{ 
@@ -13,7 +13,7 @@ h2{
 }
 h3{
     font-family:"Russo One", sans-serif;
-    font-size:18pt;
+    font-size:30pt;
     margin-left:200px;
     margin-top:200px;
 }
@@ -28,20 +28,21 @@ h3{
 }
 h1{
     font-family:"Sanchez", sans-serif;
-    font-size: 32pt;
+    font-size: 36pt;
     padding-right:200px;
     padding-left:200px;
 }
 .raleway{
     font-family:"raleway", sans-serif;
     font-weight:300;
+    text-indent: 10%;
 }
 .subtitle{
     font-family:"Sanchez", sans-serif;
     font-style:italic;
     font-weight:200;
-    padding-left:200px;
-    padding-right:600px;
+    padding-left:400px;
+    padding-right:250px;
     font-size:20pt;
     }
 .line {
@@ -49,7 +50,7 @@ h1{
         color: navy;
 }    
 .quotes{
-    background-color:lightgray;
+    background-color:#F7EBE9;
     width:100vw;
     height:40vh;
     font-family:"Sanchez", sans-serif;
@@ -86,6 +87,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -24px;
 }
 .agennn{
     background-color:steelblue;
@@ -95,6 +97,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -24px;
 }
 .agennnn{
     background-color:darkslategray;
@@ -104,6 +107,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -24px;
 }
 .concluagen{
     background-color:gainsboro;
@@ -113,9 +117,10 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -24px;
 }
 .sec1{
-    background-image:url("../spread/grid.png");
+   
     background-size:50%;
 }
 .sectionone{
@@ -190,5 +195,9 @@ h1{
             width: 350px;
             height:15px;
             margin-bottom:0px;
+            }
+
+            .indentae{
+                text-indent: 15%;
             }
         
