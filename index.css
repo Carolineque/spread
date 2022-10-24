@@ -1,145 +1,170 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,500&family=Russo+One&family=Sanchez:ital@0;1&display=swap');
+
+:root {
+    --body-copy: 16px;
+    --page-spacing: 24px;
+    --spacing-unit:6px
+    --main-heading: calc(var(--body-copy)*2.5)
+    --sub-heading: calc(var(--body-copy)*1.5)
+    --title-top: calc(var(--body-copy)*1.7)
+  
+}
+
+@media (min-width: 768px) {
+    :root {
+    --body-copy: 20px;
+    -page-spacing: 48px;
+    }
+}
+
 p{
     font-family:"Raleway", sans-serif;
-    font-size:14pt;
-    padding-left: 300px;
-    padding-right: 300px;
-    line-height:1.8;
+    padding: var(--page-spacing);
+    line-height:var(--page-spacing);
 }
-h2{ 
-    font-family:"Russo One", sans-serif;
-    font-size:22pt;
-    text-align:center;
-}
-h3{
-    font-family:"Russo One", sans-serif;
-    font-size:30pt;
-    margin-left:200px;
-    margin-top:200px;
-}
-.solid {
-        width: 100vw;
-        height: 10vh;
-        background-color:lightsalmon;
-    }
-.nav{
-    padding-top:15px;
-    padding:10px;
-}
+
 h1{
     font-family:"Sanchez", sans-serif;
-    font-size: 36pt;
-    padding-right:200px;
-    padding-left:200px;
+    font-size: calc(var(--body-copy)*2.5)
 }
-.raleway{
+
+h2{
+    font-family:"Russo One", sans-serif;
+    text-align: center;
+    font-size: calc(var(--body-copy)*1.5)
+}
+
+h3{
+    font-family:"Russo One", sans-serif;
+    font-size: calc(var(--body-copy)*1.7)
+
+}
+
+.solid {
+background-color:lightsalmon;
+height: 50px;
+}
+
+.raleway {
     font-family:"raleway", sans-serif;
     font-weight:300;
     text-indent: 10%;
 }
-.subtitle{
+
+header {
+display: flex;
+flex-direction: column;
+row-gap: calc(var(--page-spacing)*2);
+}
+
+.subtitle {
     font-family:"Sanchez", sans-serif;
     font-style:italic;
-    font-weight:200;
-    padding-left:400px;
-    padding-right:250px;
-    font-size:20pt;
-    }
-.line {
-        border-top: 3px;
-        color: navy;
-}    
+    font-size:calc(var(--body-copy)*1) ;
+}
+
+
+
 .quotes{
     background-color:#F7EBE9;
-    width:100vw;
+
     height:40vh;
     font-family:"Sanchez", sans-serif;
-    font-size:16pt;
+    font-size:calc(var(--body-copy)*0.9);
     font-style:italic;
     text-align:center;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    line-height: var(--page-spacing);
 }
+
 .bold{
     font-family:"raleway", sans-serif;
     font-weight:600;
 }
+
 .infos{
     margin-right:5vw;
     text-align:right;
 }
+
 .agen{
     background-color:midnightblue;
-    width:100vw;
-    height:20vh;
+
     text-align:center;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100% ;
+    height: calc(var(--body-copy)*6);
 }
+
 .agenn{
     background-color:lightsalmon;
-    width:100vw;
-    height:20vh;
+    width: 100% ;
+    height: calc(var(--body-copy)*6) ;
     text-align:center;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -24px;
+    margin-top: -26px;
 }
 .agennn{
     background-color:steelblue;
-    width:100vw;
-    height:20vh;
+    width: 100% ;
+    height: calc(var(--body-copy)*6);
     text-align:center;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -24px;
+    margin-top: -26px;
 }
 .agennnn{
     background-color:darkslategray;
-    width:100vw;
-    height:20vh;
+    width: 100% ;
+    height: calc(var(--body-copy)*6) ;
     text-align:center;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -24px;
+    margin-top: -26px;
 }
 .concluagen{
     background-color:gainsboro;
-    width:100vw;
-    height:20vh;
+    width: 100% ;
+    height: calc(var(--body-copy)*6) ;
     text-align:center;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -24px;
+    margin-top: -26px;
 }
+
 .sec1{
    
     background-size:50%;
 }
+
 .sectionone{
-    padding-left:100px;
-    padding-bottom:175px;
+    padding-left:calc(var(--body-copy)*3);
+    padding-bottom:calc(var(--body-copy)*2);
 }
+
 .thebar{
     background-color:midnightblue;
-    width: 350px;
+    width: 360px;
     height: 15px;
     margin-bottom:0px;
 }
+
 .sec2{
     background-color:gainsboro;
-    width:100vw;
-    height:130vh;
+    
     align-items: center;
     justify-content: center;
 }
+
 .stwotitle{
     padding-top:20px;
 }
@@ -149,7 +174,6 @@ h1{
     height: 15px;
     margin-bottom:0px;
 }
-
 
 .sec3 {
     background-color: lightyellow;
@@ -200,4 +224,6 @@ h1{
             .indentae{
                 text-indent: 15%;
             }
-        
+
+
+
