@@ -61,6 +61,7 @@ row-gap: calc(var(--page-spacing)*2);
     font-family:"Sanchez", sans-serif;
     font-style:italic;
     font-size:calc(var(--body-copy)*1) ;
+    padding-left:500px;
 }
 
 
@@ -69,6 +70,7 @@ row-gap: calc(var(--page-spacing)*2);
     background-color:#F7EBE9;
 
     height:40vh;
+    margin-top:-250px;
     font-family:"Sanchez", sans-serif;
     font-size:calc(var(--body-copy)*0.9);
     font-style:italic;
@@ -82,9 +84,11 @@ row-gap: calc(var(--page-spacing)*2);
 .bold{
     font-family:"raleway", sans-serif;
     font-weight:600;
+    margin-top:-20vh;
 }
 
 .infos{
+    margin-top:-10vh;
     margin-right:5vw;
     text-align:right;
 }
@@ -147,6 +151,7 @@ row-gap: calc(var(--page-spacing)*2);
 }
 
 .sectionone{
+    margin:10vh;
     padding-left:calc(var(--body-copy)*3);
     padding-bottom:calc(var(--body-copy)*2);
 }
@@ -156,11 +161,15 @@ row-gap: calc(var(--page-spacing)*2);
     width: 360px;
     height: 15px;
     margin-bottom:0px;
+    padding-left:100px;
+    padding-bottom:30px;
+    margin-top:20vh;
 }
 
 .sec2{
+    height:730px;
     background-color:gainsboro;
-    
+    margin-bottom:-10vh;
     align-items: center;
     justify-content: center;
 }
@@ -173,6 +182,9 @@ row-gap: calc(var(--page-spacing)*2);
     width: 350px;
     height: 15px;
     margin-bottom:0px;
+    margin-top:20vh;
+    padding-left:100px;
+    padding-bottom:30px;
 }
 
 .sec3 {
@@ -184,10 +196,13 @@ row-gap: calc(var(--page-spacing)*2);
     }
     
     .barm{
+    margin-top:20vh;
     background-color: steelblue;
     width: 350px;
     height:15px;
     margin-bottom:0px;
+    padding-left:100px;
+    padding-bottom:30px;
     }
 
     .sec4 {
@@ -199,10 +214,13 @@ row-gap: calc(var(--page-spacing)*2);
         }
         
         .barc{
+        margin-top:20vh;
         background-color: darkslategray;
-        width: 350px;
+        width: 450px;
         height:15px;
         margin-bottom:0px;
+        padding-left:100px;
+        padding-bottom:30px;
         }
 
     .sec5 {
@@ -215,6 +233,9 @@ row-gap: calc(var(--page-spacing)*2);
             }
             
             .barco{
+            margin-top:20vh;
+            padding-left:100px;
+            padding-bottom:30px;
             background-color: white;
             width: 350px;
             height:15px;
@@ -226,4 +247,6 @@ row-gap: calc(var(--page-spacing)*2);
             }
 
 
-
+    .header{
+        padding-left:200px;
+    }
