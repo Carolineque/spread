@@ -266,6 +266,12 @@ row-gap: calc(var(--page-spacing)*2);
         .abovect{
         padding-top: 20px;
         }
+
+        @media (min-width: 768px) {
+            .abovect{
+                padding-top: 32px;
+            }
+        }
         
         .barc{
         background-color: darkslategray;
