@@ -339,4 +339,23 @@ row-gap: calc(var(--page-spacing)*2);
     .barco{
         padding-left:40px;
     }
+    .agen{
+        border-top:1px solid black;
+    }
+    .stwotitle{
+        border-top:1px solid black;
+    }
+    .infos{
+        border-bottom:1px solid black;
+        margin-bottom:-5vh;
+    }
+    .sec3{
+        border-top:1px solid black;
+    }
+    .sec4{
+        border-top:1px solid black;
+    }
+    .sec5{
+        border-top:1px solid black;
+    }
 }
