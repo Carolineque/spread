@@ -154,6 +154,16 @@ row-gap: calc(var(--page-spacing)*2);
     justify-content: center;
     margin-top: -31px;
 }
+.agenn:hover{
+    color:gainsboro;
+    background-color:darkslategray;
+}
+
+.agen:hover{
+    color:lightsalmon;
+    background-color:gainsboro;
+}
+
 .agennn{
     background-color:steelblue;
     width: 100% ;
@@ -164,6 +174,11 @@ row-gap: calc(var(--page-spacing)*2);
     justify-content: center;
     margin-top: -31px;
 }
+.agennn:hover{
+    color:midnightblue;
+    background-color:aliceblue;
+}
+
 .agennnn{
     background-color:darkslategray;
     width: 100% ;
@@ -174,6 +189,11 @@ row-gap: calc(var(--page-spacing)*2);
     justify-content: center;
     margin-top: -31px;
 }
+.agennnn:hover{
+    color:lightsalmon;
+    background-color:lightblue;
+}
+
 .concluagen{
     background-color:gainsboro;
     width: 100% ;
@@ -183,6 +203,10 @@ row-gap: calc(var(--page-spacing)*2);
     align-items: center;
     justify-content: center;
     margin-top: -31px;
+}
+.concluagen:hover{
+    color:lightblue;
+    background-color:navy;
 }
 
 .sec1{
