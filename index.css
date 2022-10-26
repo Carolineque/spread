@@ -318,7 +318,7 @@ row-gap: calc(var(--page-spacing)*2);
                 line-height:calc(var(--page-spacing)*1.8);
                 }
             }
-
+a{ color: inherit;}
 
 @media print {
     header{
@@ -364,4 +364,8 @@ row-gap: calc(var(--page-spacing)*2);
     .sec5{
         border-top:1px solid black;
     }
+   a{
+    all: unset;
+    color: inherit;
+   }
 }
