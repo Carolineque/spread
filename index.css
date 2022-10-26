@@ -315,6 +315,28 @@ row-gap: calc(var(--page-spacing)*2);
 
 
 @media print {
-    
+    header{
+        border-top:1px solid black;
+    }
+    .quotes{
+        height:0vh;
+    }
+    .infos{
+        padding-bottom:10vh;
+    }
+    .thebar{
+        padding-left:40px;
+    }
+    .thebarr{
+        padding-left:40px;
+    }
+    .barm{
+        padding-left:40px;
+    }
+    .barc{
+        padding-left:40px;
+    }
+    .barco{
+        padding-left:40px;
+    }
 }
-
