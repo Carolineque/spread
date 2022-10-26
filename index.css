@@ -96,6 +96,12 @@ row-gap: calc(var(--page-spacing)*2);
 }
 
 
+@media (min-width: 768px) {
+    .nav{
+        margin-left:-15vh;   
+    }
+}
+
 .quotes{
     background-color:#F7EBE9;
 
